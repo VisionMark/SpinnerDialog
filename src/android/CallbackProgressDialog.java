@@ -29,7 +29,7 @@ public class CallbackProgressDialog extends ProgressDialog {
 		dialog.setIndeterminate(indeterminate);
 		dialog.setCancelable(cancelable);
 		dialog.setOnCancelListener(cancelListener);
-		dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+		dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.rgb(21, 52, 67)));  // color code is #153443
 		dialog.show();
 		return dialog;
 	}
